@@ -6,6 +6,7 @@ html, body {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    font-family: Tahoma;
 }
 #loginDiv {
     background: grey;
@@ -21,9 +22,9 @@ html, body {
     text-align: center;
     border: 0;
     padding: 6px;
-    font-size: 18px;
+    font-size: 0.9em;
     height: 1em;
-    width: 10em;
+    width: 94%;
     margin-bottom: 1.4em;
     border-radius: 3px;
 }
@@ -31,9 +32,9 @@ html, body {
     text-align: center;
     border: 0;
     padding: 6px;
-    font-size: 18px;
+    font-size: 0.9em;
     height: 1em;
-    width: 10em;
+    width: 94%;
     margin-bottom: 1.4em;
     border-radius: 3px;
 }
@@ -50,6 +51,7 @@ html, body {
     padding: 8px;
     width: 90px;
     border-radius: 3px;
+    margin-right: 1%;
 }
 #signInButton {
     background: black;
