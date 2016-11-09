@@ -1,0 +1,88 @@
+html, body {
+    background: darkslategrey;
+    color: white;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Tahoma;
+}
+
+
+#menuBar {
+    background: grey;
+    width: 100%;
+    height: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.menuItem {
+    color: white;
+    text-decoration: none;
+    text-decoration: bold;
+}
+
+
+#profileDiv {
+    background: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 47%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#profilePictureDiv {
+    background: lightslategrey;
+    width: 170px;
+    height: 170px;
+    border-radius: 150px;
+    margin-right: 20px;
+}
+#profilePicture {
+    width: 170px;
+    height: 170px;
+    border-radius: 150px;
+}
+#profileInformationDiv {
+    width: 200px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#profileName {
+    font-size: 2em;
+    margin: 0;
+}
+#profileUser {
+    margin: 0;
+    margin-top: 0.8em;
+    margin-bottom: 0.9em;
+}
+#profileAge, #profilePlace {
+    margin: 0;
+    margin-bottom: 0.2em;
+}
+
+
+#storyContainerDiv {
+    width: 70%;
+    height: 47%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.story {
+    background: black;
+    opacity: 0.7;
+    width: 110px;
+    height: 170px;
+}
