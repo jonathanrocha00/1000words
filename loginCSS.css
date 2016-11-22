@@ -1,5 +1,6 @@
 html, body {
-    background: darkslategrey;
+    /*background: darkslategrey;*/
+    
     margin: 0;
     height: 100%;
     display: flex;
@@ -7,6 +8,10 @@ html, body {
     justify-content: flex-end;
     align-items: center;
     font-family: Tahoma;
+}
+body {
+    background-image: url("LoginBackground.png");
+    background-size: cover;
 }
 #loginDiv {
     background: grey;

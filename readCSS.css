@@ -1,0 +1,83 @@
+html, body {
+    background: darkslategrey;
+    color: white;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Tahoma;
+}
+
+
+#menuBar {
+    background: grey;
+    width: 100%;
+    height: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.menuItem {
+    color: white;
+    text-decoration: none;
+    text-decoration: bold;
+}
+
+
+#textContainer {
+    background: #1d3030;
+    /*opacity: 0.2;*/
+    width: 35%;
+    min-width: 500px;
+    height: 94%;
+
+    padding: 4%;
+    text-indent: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+#title {
+    color: #8fbcbc;
+    text-align: center;
+}
+.text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+#optionsContainer {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 12%;
+    z-index: 1;
+    
+}
+#optionLeft, #optionRight {
+    background: #0a1010;
+    width: 380px;
+    height: 10%;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    transition: all 0.5s;
+}
+#optionLeft:hover {
+    transform: translate(-220px, 0);
+}
+#optionRight:hover {
+    transform: translate(220px, 0);
+}
