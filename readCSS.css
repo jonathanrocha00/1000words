@@ -78,6 +78,7 @@ html, body {
     display: block;
     text-align: center;
     transition: all 0.5s;
+    border-radius: 100px;
 }
 #optionLeft:hover {
     transform: translate(-220px, 0);
