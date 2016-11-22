@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+	<title> Progress - 1000 Words </title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="profileJS.js"></script>
+	<link type="text/css" rel="stylesheet" href="styles.css"/>
+	<link type="text/css" rel="stylesheet" href="grid.css"/>
+
+	<script>
+		function myFunction(){
+			document.getElementById("read2").style.width="30%";
+			document.getElementById("read3").style.width="60%";
+		}
+	</script>
+	
+</head>
+
+<body onload="myFunction()">
+	
+	<div class="row">
+		<div class="col-12">
+		    <div id="menuBar">
+				<a class="menuItem" href="showcase.html"> Showcase </a>
+				<a class="menuItem" href="progress.html"> Progress </a>
+				<a class="menuItem" href="#"> Account </a>
+				<a class="menuItem" href="#"> Help </a>
+		    </div>
+		</div>
+ 	</div>
+
+ 	<div class="row">
+ 		<div id="profileDiv">
+
+ 		<div class="col-12">
+			<div id="profilePictureDiv">
+			<img id="profilePicture" src="defaultProfilePicture.jpg">
+		</div>
+		</div>
+
+		<div class="col-12">
+			<div id="profileInformationDiv">
+				<p id="profileName"> Name </p>
+				<p id="profileUser"> @username </p>
+				<p id="profileAge"> 23 years </p>
+				<p id="profilePlace"> Nowhere city, NW, Nowhere </p>
+			</div>
+		</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-12">
+			<form>
+			  <input type="text" name="search" placeholder="Search..">
+			</form>
+		</div>
+
+		<div class="col-12">
+			<h2 align="center">Finished Readings</h2>
+		</div>
+
+		<div class="col-12">
+			<div class="container">
+				<img src="1.png"/>
+				<p class="info">Exemplo 1</p>
+				<p class="info">Finished 1 day ago on November 13, 2016 02:02 a.m.</p>
+				<div id="progressbar"><div id="read1">100%</div></div>
+			</div>
+		</div>
+
+		<div class="col-12">
+			<div class="container">
+				<img src="2.png"/>
+				<p class="info">Exemplo 2</p>
+				<p class="info">Last reading page 9/30 on November 9, 2016 01:36 p.m.</p>
+				<div id="progressbar"><div id="read2">30%</div></div>
+			</div>
+		</div>
+
+		<div class="col-12">
+			<div class="container">
+				<img src="3.png"/>
+				<p class="info">Exemplo 3</p>
+				<p class="info">Last reading page 6/10 on November 9, 2016 05:01 p.m.</p>
+				<div id="progressbar"><div id="read3">60%</div></div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+
+</html>
