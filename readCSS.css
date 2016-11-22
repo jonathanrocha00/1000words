@@ -1,5 +1,5 @@
 html, body {
-    background: darkslategrey;
+    background: #f1d9c0;
     color: white;
     margin: 0;
     height: 100%;
@@ -13,7 +13,7 @@ html, body {
 
 
 #menuBar {
-    background: grey;
+    background: #303669;
     width: 100%;
     height: 6%;
     display: flex;
@@ -29,7 +29,7 @@ html, body {
 
 
 #textContainer {
-    background: #1d3030;
+    background: #e3b482;
     /*opacity: 0.2;*/
     width: 35%;
     min-width: 500px;
@@ -45,10 +45,15 @@ html, body {
     z-index: 10;
 }
 #title {
-    color: #8fbcbc;
+    color: #3f270e;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 1.5em;
     text-align: center;
 }
 .text {
+    color: #694117;
+    margin: 0;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -56,7 +61,6 @@ html, body {
 
 #optionsContainer {
     width: 100%;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -67,7 +71,7 @@ html, body {
     
 }
 #optionLeft, #optionRight {
-    background: #0a1010;
+    background: #48509e;
     width: 380px;
     height: 10%;
     cursor: pointer;

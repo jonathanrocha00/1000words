@@ -1,6 +1,4 @@
 html, body {
-    /*background: darkslategrey;*/
-    
     margin: 0;
     height: 100%;
     display: flex;
@@ -10,11 +8,16 @@ html, body {
     font-family: Tahoma;
 }
 body {
-    background-image: url("LoginBackground.png");
-    background-size: cover;
+    background-color: #bd9a75;
+    background-image: url("LoginBackground.svg");
+    background-repeat: no-repeat;
+    background-size: 140% 140%;
+    background-position: 80% 30px;
+    background-attachment: fixed;
+    
 }
 #loginDiv {
-    background: grey;
+    background: #303669;
     width: 240px;
     height: 440px;
     display: flex;
@@ -24,7 +27,7 @@ body {
     padding-top: 1.4em;
 }
 #usernameInput {
-    text-align: center;
+    color: #48509e;
     border: 0;
     padding: 6px;
     font-size: 0.9em;
@@ -34,7 +37,7 @@ body {
     border-radius: 3px;
 }
 #passwordInput {
-    text-align: center;
+    color: #48509e;
     border: 0;
     padding: 6px;
     font-size: 0.9em;
@@ -50,25 +53,30 @@ body {
     align-items: center;
 }
 #submitButton {
-    background: black;
+    background: #181b34;
     color: white;
     border: 0;
     padding: 8px;
     width: 90px;
     border-radius: 3px;
     margin-right: 1%;
+    transition: all .2s;
 }
 #buttonText {
     color: white;
     text-decoration: none;
 }
 #signUpButton {
-    background: black;
+    background: #181b34;
     color: white;
     border: 0;
     padding: 8px;
     width: 90px;
     border-radius: 3px;
+    transition: all .2s;
+}
+#submitButton:hover, #signUpButton:hover {
+    background: #080911;
 }
 #forgotPassword {
     font-size: 0.8em;
