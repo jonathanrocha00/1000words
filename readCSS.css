@@ -51,7 +51,14 @@ html, body {
     margin-bottom: 1.5em;
     text-align: center;
 }
-.text {
+#text1 {
+    color: #694117;
+    margin: 0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#text2 {
     color: #694117;
     margin: 0;
     text-align: justify;
