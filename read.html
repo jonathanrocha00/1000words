@@ -7,7 +7,7 @@
 	<title> 1000 Words </title>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="profileJS.js"></script>
+	<script src="read.js"></script>
 	<link type="text/css" rel="stylesheet" href="readCSS.css"/>
 	
 </head>
@@ -20,6 +20,15 @@
 				<a class="menuItem" href="#"> Account </a>
 				<a class="menuItem" href="#"> Help </a>
      </div>
+
+     <div id="themes">
+	     <select id="colorTheme"> 
+	     	<option value="" disabled selected>Theme Selection</option>
+			<option value="#E3B482">Purple Rain</option>
+		  	<option value="#CCC9C7">50 Shades of Grey</option> 
+		  	<option value="#d1807c">Blue Neighbourhood</option>
+		</select>
+	</div>
 
 	<div id="textContainer">
 		<h1 id="title"> Lorem ipsum... </h1>
@@ -64,7 +73,6 @@
 			<p class="optionText">Lorem ipsum dolor sit amet</p>
 		</div>
 	</div>
-
 	
 </body>
 

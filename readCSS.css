@@ -86,3 +86,15 @@ html, body {
 #optionRight:hover {
     transform: translate(220px, 0);
 }
+
+#themes{
+    width: 100%;
+    position: relative;
+}
+
+#colorTheme{
+    top: 50px;
+    left: 50px;
+    text-align-last: center;
+    position: absolute;
+}
